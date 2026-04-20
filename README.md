@@ -29,3 +29,12 @@ Because of that, opening multiple pages in the same session can hide or contamin
   - Shows that import order affects the generated CSS output.
   - Changing the import order changes where the `@keyframes` block appears in the final `<style>`.
   - This can make the breakage less obvious, even though the generated CSS is still malformed.
+
+## Screenshots
+
+<img width="400" src="./_screenshots/001_ok.png" alt="" />
+
+<img width="400" src="./_screenshots/002_error_issue_keyframe_css.png" alt="" />
+
+<img width="400" src="./_screenshots/003_error_issue_keyframe_css_import_order_matters.png" alt="" />
+
